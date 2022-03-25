@@ -84,7 +84,7 @@ public class ArraysLesson4 {
                         System.out.println(minValue);
                     }
                     Arrays.sort(ints8);
-                    System.out.println(Arrays.toString(ints8););
+                    System.out.println(Arrays.toString(ints8));
                     int element = Arrays.binarySearch(ints8, key 3.7);
                     System.out.println(element); // 2
 
