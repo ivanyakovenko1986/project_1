@@ -3,6 +3,8 @@ package Lesson5;
 import java.util.Arrays;
 
 public class StringLesson {
+    public static int i;
+
     public static void main(String[] args) {
       //char  примитивный тип данных 16 битный символ Unicode
         //от 0 до 65536 (не имеет отрицательных кодов) /'\u0000' до '\uffff
@@ -50,7 +52,7 @@ public class StringLesson {
         System.out.println(string1 ==string2); //true
         System.out.println(string1 ==string3); //false
 
-        String internString = string3.intern()
+        String internString = string3.intern();
         //метод интерн - интернирование. у стринг3 вызвали метод интрнт.
         // метод смотрит пул строк. если есть такая строка, значит метод вернет ссылку на строку из пула
 
@@ -78,7 +80,7 @@ public class StringLesson {
         // Java : :
         concatString = string1.concat(" : : ").concat(string2); //Java : : Python
 
-        concatString = String.join(" : : "< string1, string2); // метод join - объединение строк
+        concatString = String.join(" : : " < string1, string2); // метод join - объединение строк
 
         concatString = "";
         for (int i = 0, i < 10, i++) {

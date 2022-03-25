@@ -20,9 +20,9 @@ public class ArraysLesson4 {
         System.out.println(ints1);
         System.out.println(Arrays.toString(ints1));
 
-        int[] ints2 = {6, -90, 56, 12, 0, -44} //в фигурных скобках создается массив со знанением
+        int[] ints2 = {6, -90, 56, 12, 0, -44}; //в фигурных скобках создается массив со знанением
         System.out.println(Arrays.toString(ints2));
-        ints2 = new int[3]
+        ints2 = new int[3];
         System.out.println(Arrays.toString(ints2));
 
         //ints2 = {34, 78, 12}; при создании новых размеров масива нельзя присвоить ему новые значения, только изменить размер квадратными скобками
@@ -39,7 +39,7 @@ public class ArraysLesson4 {
         System.out.println(ints4[3]); //0 так как массив пока состоит из 0
         int arrElem = ints4[3];
         ints4[2] = 56;
-        System.out.println(Arrays.toString(ints4))
+        System.out.println(Arrays.toString(ints4));
 
                 //многомерный массив
         // [ [0.0.0.0], [0,0,0,0], [0,0,0,0] ]
@@ -71,7 +71,7 @@ public class ArraysLesson4 {
         s = 0;
         //не предоставляет доступа к индексам
                 //не дает возможность изменить значение элементов массива
-                for (int element: ints7) {
+            for (int element: ints7) {
                     System.out.println(element);
                     s += element;
 
