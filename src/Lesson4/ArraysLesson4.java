@@ -94,7 +94,7 @@ public class ArraysLesson4 {
                     //double[] ints10 = ints9; //так массивы не копируются
                     double[] cloneInts9 = ints9.clone();
 
-                    double[] copyInts9 = Arrays.copyOf(ints9, newLegth: 3);
+                    double[] copyInts9 = Arrays.copyOf(ints9, newLegth : 3);
                     System.out.println(Arrays.toString(copyInts9));
 
                     double[] newDoubles = new double[10];
